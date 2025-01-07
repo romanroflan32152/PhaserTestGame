@@ -1,4 +1,3 @@
-import Phaser from 'phaser';
 import skyImage from '../assets/sky.jpg';
 import ballImage from '../assets/ball.png';
 import paddleImage from '../assets/paddle.png';
