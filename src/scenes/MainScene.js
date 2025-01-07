@@ -1,9 +1,3 @@
-import Phaser from 'phaser';
-import skyImage from '../assets/sky.jpg';
-import ballImage from '../assets/ball.png';
-import paddleImage from '../assets/paddle.png';
-import brickImage from '../assets/brick.png';
-
 export default class MainScene extends Phaser.Scene {
     constructor() {
         super({ key: 'MainScene' });
@@ -14,11 +8,10 @@ export default class MainScene extends Phaser.Scene {
     }
 
     preload() {
-        // Load assets using imported URLs
-        this.load.image('sky', skyImage);
-        this.load.image('ball', ballImage);
-        this.load.image('paddle', paddleImage);
-        this.load.image('brick', brickImage);
+        this.load.image('sky', "src/assets/sky.jpg");
+        this.load.image('ball', 'src/assets/ball.png');
+        this.load.image('paddle', 'src/assets/paddle.png');
+        this.load.image('brick', 'src/assets/brick.png');
     }
 
     create() {
