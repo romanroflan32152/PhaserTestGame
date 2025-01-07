@@ -2,6 +2,8 @@
 
 PhaserTestGame is a simple Arkanoid clone developed using Phaser 3.
 
+Live Demo: https://romanroflan32152.github.io/PhaserTestGame/
+
 ## Installation
 
 1. Clone the repository:
